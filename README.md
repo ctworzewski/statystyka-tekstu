@@ -1,7 +1,10 @@
 # JS
 
-## splice
+## Statystyka tekstu
 
-arr.splice(start, deleteCount, addItem);
+- stworzyć referencje do elementów HTML
+- stworzyć przycisk oraz pole `textarea`,
+- wprowadzić tekst do pola `textarea` i nacisnąć przycisk,
+- dane słowo zostanie  dodane do tablicy
+- zliczyć ilość podanych znaków  
 
-arr.splice(2,0, 'test'); // od drugiego indeksu w tablicy usuwamy sero elementów i dodajemy na miejscu drugiego wartosc test
