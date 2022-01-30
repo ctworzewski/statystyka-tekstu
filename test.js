@@ -8,7 +8,7 @@ function onChnage(e) {
     
     const tekst = textarea.value;
     const ileZnakow = tekst.length;
-    const ileSlow = tekst.split(' ').length;
+    const ileSlow = tekst.replace(/[\r\n]/g, ' ').split(' ').length;
     const ileZdan = tekst.split('.').length;
 
     document.getElementById('ileZnakow').innerHTML = ileZnakow;
